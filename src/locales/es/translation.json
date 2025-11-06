@@ -1,0 +1,72 @@
+{
+  
+    "hero": {
+    "grupo_inmobiliario": "Grupo inmobiliario inspirado y comprometido",
+    "subtitulo": "Creamos espacios para tu futuro."
+  },
+  "contacto": {
+    "label_nombre": "Nombre",
+    "label_email": "Correo electrónico",
+    "label_mensaje": "Mensaje",
+    
+    "placeholder_nombre": "Escribe tu nombre",
+    "placeholder_email": "Escribe tu correo electrónico",
+    "placeholder_mensaje": "Escribe tu mensaje aquí",
+    
+    "boton_enviar": "Enviar",
+    "boton_enviando": "Enviando...",
+    
+    "estado": {
+      "captcha_error": "Por favor, verifica el captcha antes de enviar.",
+      "success": "¡Mensaje enviado correctamente!",
+      "fail": "No se pudo enviar el mensaje. Intenta nuevamente.",
+      "connect_error": "Error de conexión. Por favor, intenta más tarde."
+    }
+  },
+  
+  "sobreAngela": {
+    "alt_imagen": "Angela Rizzi",
+    "titulo": "Angela Rizzi",
+    "descripcion": "Angela Rizzi combina más de 25 años de experiencia en el sector inmobiliario con una profunda pasión por el arte y el diseño. Su sólida formación en seguros, finanzas y marketing le permite gestionar transacciones complejas con precisión y una visión estratégica única. \nReconocida por su trato personalizado y compromiso con la satisfacción del cliente, Angela acompaña a cada persona en la búsqueda de un hogar que refleje su estilo y aspiraciones. Su enfoque artístico y su alcance internacional, que incluye mercados como Colombia, Italia, Panamá y Portugal, hacen de cada experiencia inmobiliaria un proceso fluido, enriquecedor y a medida.",
+    "boton": "Conocé al equipo"
+  },
+  "porqueElegirnos": {
+    "titulo": "¿Por qué elegirnos?",
+    "razon1": "25 años de experiencia asesorando inversionistas y dueños de casa a alcanzar sus sueños.",
+    "razon2": "Te acompañamos en cada paso de tu inversión con un equipo multidisciplinario (abogados, contadores).",
+    "razon3": "Inversiones fáciles y seguras, seleccionando proyectos estudiados con alta rentabilidad.",
+    "razon4": "Servicio excepcional y trato personalizado, entendiendo tus necesidades en el extranjero.",
+    "alt_icono": "Icono de Tick"
+  },
+  "intro": {
+    "alt_imagen": "Casa moderna",
+    "titulo_html": "La forma más <span>flexible</span> <br />de invertir.",
+    "descripcion": "Con sus más de 25 años de experiencia, Rizzi Group presenta una propuesta innovadora que revoluciona la forma de acceder a una propiedad en cualquier parte del mundo. Con su equipo de expertos en diversas areas y un esquema dinámico y flexible, pensado especialmente para las familias latinoamericanas, se abre la puerta a un estilo de vida global, con beneficios que van más allá de la compra tradicional de bienes raíces. Rizzi Group te invita: ¡Vive la experiencia!",
+    "boton": "Contáctanos"
+  },
+  "introProyectos": {
+    "alt_imagen": "Mapa",
+    "titulo_html": "Inversiones a nivel <span>Internacional</span>",
+    "descripcion": "En Rizzi Group creemos en construir futuro. Desarrollamos proyectos y opciones de inversión en vivienda y construcción en distintos lugares del mundo, ofreciendo financiamiento y soluciones flexibles para que cada inversor sea parte del crecimiento y la creación de nuevos espacios.",
+    "boton": "Contáctanos"
+  },
+    "servicios": {
+    "titulo": "Nuestros Servicios",
+    "servicio1": "Propiedades",
+    "descripcion1": "Desde la búsqueda hasta la compra, te guiamos y asesoramos en cada paso para encontrar y adquirir tu propiedad ideal.",
+    "servicio2": "Inversiones Internacionales",
+    "descripcion2": "Brindamos acceso a múltiples alternativas de inversión inmobiliaria en diferentes países, con proyectos sólidos y adaptados a tu medida.",
+    "servicio3": "Asesoramiento Legal",
+    "descripcion3": "Te brindamos apoyo legal para invertir en el exterior con seguridad, asesorando desde la compraventa hasta las obligaciones fiscales.",
+    "servicio4": "Financiación",
+    "descripcion4": "Disponemos de líneas de crédito y financiamiento respaldadas por nuestro socio estratégico Sun Tree Finance, garantizando solidez y confianza.",
+    "boton": "Consulte con nuestro experto de confianza"
+  },
+    "nav": {
+    "home": "Home",
+    "proyectos": "Proyectos",
+    "sobre": "Sobre Nosotros",
+    "contacto": "Contacto"
+  }
+  
+}

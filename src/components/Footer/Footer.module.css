@@ -1,0 +1,25 @@
+.footer {
+  text-align: center;
+  background: #222;
+  color: rgb(139, 86, 86);
+  font-size: 0.9rem;
+}
+.footer {
+  background-color: #ffffff; /* color de fondo */
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer p {
+  font-weight: bold;
+}
+
+.logo {
+  width: 20rem;
+  max-width: 800px;
+  height: auto;
+  padding: 20px;
+  padding-right: 50px;
+}

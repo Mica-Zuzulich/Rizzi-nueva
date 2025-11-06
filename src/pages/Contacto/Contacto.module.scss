@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contacto {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f2f4f4;
+  width: 100%;
+
+    .contactoMargenes{
+        width: 94%;
+    margin: auto;
+
+    }
+
+    h2{
+      text-align: left;
+      font-size: 4rem;
+      color: #0a1944;
+  }
+
+  button {
+    background: #141e2e;
+    color: white;
+    border: none;
+    padding: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 140px;
+    font-size: 1.3rem;
+    font-weight:bold;
+  }
+
+  button:hover {
+    opacity: 0.9;
+    background-color: burlywood;
+  }
+
+  h3{
+    display: inline-block;
+    padding: 0.2rem 0;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    color: #0a1944;
+    border-bottom: solid 3px #c59668;
+  }
+.certi{
+  margin-top: 10px;
+  font-size: 1.7rem;
+  margin-bottom: 6rem;
+}
+
+
+.formContainer {
+    //background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.info {
+  //background: white;
+  width: 50%;
+  padding-left: 2rem;
+  border-radius: 10px;
+  //box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: left;
+
+  .logo {
+  border-radius: 6px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  overflow: hidden;
+  min-width: 200px;
+  margin-left: -2rem;
+  
+    img{
+      width: 50%;
+    }
+  }
+}
+
+.datos{
+  //background-color: burlywood;
+  display: grid;
+  align-items: end;
+  p{
+    font-size: 1.2rem;
+    padding-top: 10px;
+  }
+}
+
+p{
+  font-weight: 500;
+}
+}
+
+/* ----------------- MEDIA QUERIES RESPONSIVE ----------------- */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .contacto {
+    padding: 3rem 1.5rem;
+
+    h2 {
+      font-size: 2.8rem;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+    }
+
+    .formContainer {
+      flex-direction: column;
+      align-items: center;
+      gap: 2.5rem;
+    }
+
+    .info, .form {
+      width: 100%;
+      padding: 1rem;
+    }
+
+    .info .logo img {
+      width: 60%;
+      margin: auto;
+      display: block;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    button {
+      width: 60%;
+      font-size: 1.1rem;
+      padding: 1rem;
+    }
+  }
+
+  input,
+  textarea {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    border-radius: 30px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+  .contacto {
+    padding: 2rem 1rem;
+
+    h2 {
+      font-size: 2.2rem;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    .formContainer {
+      flex-direction: column;
+      gap: 2rem;
+      width: 100%;
+      form{
+        width: 100% !important;
+      }
+    }
+
+    .info, .form {
+      width: 100%;
+      padding: 0.5rem;
+    }
+
+    .info .logo img {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .datos p {
+      font-size: 0.95rem;
+    }
+
+    input,
+    textarea {
+      font-size: 1rem;
+      padding: 0.7rem;
+    }
+
+    button {
+      width: 80%;
+      font-size: 1rem;
+      padding: 0.8rem;
+    }
+  }
+
+  ._form_1h0sm_8{
+    width: 100% !important;
+  }
+}

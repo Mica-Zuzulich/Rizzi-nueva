@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contacto {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f2f4f4;
+  width: 100%;
+}
+.contacto .contactoMargenes {
+  width: 94%;
+  margin: auto;
+}
+.contacto h2 {
+  text-align: left;
+  font-size: 4rem;
+  color: #0a1944;
+}
+.contacto button {
+  background: #141e2e;
+  color: white;
+  border: none;
+  padding: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 140px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.contacto button:hover {
+  opacity: 0.9;
+  background-color: burlywood;
+}
+.contacto h3 {
+  display: inline-block;
+  padding: 0.2rem 0;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  color: #0a1944;
+  border-bottom: solid 3px #c59668;
+}
+.contacto .certi {
+  margin-top: 10px;
+  font-size: 1.7rem;
+  margin-bottom: 6rem;
+}
+.contacto .formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.contacto .info {
+  width: 50%;
+  padding-left: 2rem;
+  border-radius: 10px;
+  text-align: left;
+}
+.contacto .info .logo {
+  border-radius: 6px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  overflow: hidden;
+  min-width: 200px;
+  margin-left: -2rem;
+}
+.contacto .info .logo img {
+  width: 50%;
+}
+.contacto .datos {
+  display: grid;
+  align-items: end;
+}
+.contacto .datos p {
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+.contacto p {
+  font-weight: 500;
+}
+
+/* ----------------- MEDIA QUERIES RESPONSIVE ----------------- */
+/* Tablets */
+@media (max-width: 992px) {
+  .contacto {
+    padding: 3rem 1.5rem;
+  }
+  .contacto h2 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .contacto h3 {
+    font-size: 1.4rem;
+  }
+  .contacto .formContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  .contacto .info, .contacto .form {
+    width: 100%;
+    padding: 1rem;
+  }
+  .contacto .info .logo img {
+    width: 60%;
+    margin: auto;
+    display: block;
+  }
+  .contacto p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .contacto button {
+    width: 60%;
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+  input,
+  textarea {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    border-radius: 30px;
+  }
+}
+/* Celulares */
+@media (max-width: 600px) {
+  .contacto {
+    padding: 2rem 1rem;
+  }
+  .contacto h2 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .contacto h3 {
+    font-size: 1.2rem;
+  }
+  .contacto .formContainer {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+  .contacto .formContainer form {
+    width: 100% !important;
+  }
+  .contacto .info, .contacto .form {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .contacto .info .logo img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contacto .datos p {
+    font-size: 0.95rem;
+  }
+  .contacto input,
+  .contacto textarea {
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+  .contacto button {
+    width: 80%;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+  ._form_1h0sm_8 {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=Contacto.module.css.map */

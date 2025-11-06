@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box
+}
+
+.servicios {
+  text-align: center;
+  padding: 2rem 2rem;
+  background-color: #fff;
+  color: #00123a;
+  width: 94%;
+  margin: 60px auto;
+
+}
+
+.servicios h2 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Contenedor de las tarjetas */
+.grid {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  flex-wrap: wrap; /* Permite que bajen en móviles */
+  gap: 3rem; /* Espacio entre tarjetas */
+}
+
+/* Cada tarjeta */
+.card {
+  flex: 1 1 200px; /* Crece hasta llenar el espacio, mínimo 200px */
+  max-width: 320px; /* Ancho máximo de cada tarjeta */
+  background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Fondo con leve degradado tipo relieve */
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.15), -4px -4px 12px rgba(255, 255, 255, 0.6); /* efecto relieve */
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  /* Animación al pasar el mouse */
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2), -6px -6px 16px rgba(255, 255, 255, 0.7);
+    transform: scale(1.1);
+  }
+
+  button{
+    background-color:#00123a00;
+  }
+
+  .botonPrestamo{
+    background-color: #00123a !important;
+    transition: all 0.5s;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+}
+
+/* Imagen o ícono dentro de la card */
+.cardImg {
+  width: 40%; /* Tamaño más grande para ícono */
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 8, 53, 0.2)); /* sombra sutil al ícono */
+  transition: transform 0.3s ease;
+  margin-bottom: 10px;
+}
+
+/* Título dentro de la tarjeta */
+.card h3 {
+  font-size: 1.3rem;
+  color: #00123a;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Texto opcional debajo */
+.card p {
+  font-size: 1.2rem;
+  color: #00123a;
+  line-height: 1.5;
+  max-width: 260px;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+/* Efecto hover opcional */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .card {
+    flex: 1 1 180px;
+    max-width: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    max-width: 90%;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.intro {
+  background-color: #f7f7f7;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  gap: 50px;
+  height: auto;
+  padding: 5em 0;
+  margin: auto;
+}
+
+.imagen {
+  flex: 1;
+  background-color: #ececec;
+  border-radius: 25px;
+  display: grid;
+  place-content: center;
+  height: 90%;
+}
+
+.casaImg {
+  width: 120%;
+  border-radius: 12px;
+  margin: -200px 0;
+  margin-left: -80px;
+}
+
+.texto {
+  height: 90%;
+  flex: 1;
+  color: #00123a;
+}
+
+.texto h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #00123a;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.texto span {
+  color: #c2865a;
+}
+
+.texto p {
+  margin-top: 20px;
+  font-size: 1.25em;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.boton {
+  margin-top: 25px;
+  background-color: #00123a;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.boton:hover {
+  background-color: #c2865a;
+}/*# sourceMappingURL=Intro.module.css.map */
+
+
+/* 📱 -------------------- RESPONSIVE DESIGN -------------------- */
+
+/* Tablets (pantallas medianas: 768px - 1024px) */
+@media (max-width: 1024px) {
+  .contenedor {
+    flex-direction: column;
+    text-align: center;
+    gap: 2.5rem;
+    padding: 3em 1em;
+  }
+
+  .imagen {
+    width: 100%;
+    height: auto;
+  }
+
+  .casaImg {
+    width: 100%;
+    margin: 0;
+  }
+
+  .texto {
+    width: 100%;
+  }
+
+  .texto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .texto p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .boton {
+    font-size: 1.1rem;
+    padding: 15px 25px;
+  }
+}
+
+/* Celulares (pantallas pequeñas: hasta 767px) */
+@media (max-width: 767px) {
+  .contenedor {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 2em 1em;
+  }
+
+  .imagen {
+    order: -1; /* Imagen arriba del texto */
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+  }
+
+  .casaImg {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .texto h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .texto p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+  }
+
+  .boton {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}

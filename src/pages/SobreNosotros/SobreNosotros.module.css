@@ -1,0 +1,700 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bannerSobre {
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(rgba(27, 32, 44, 0.658), rgba(21, 27, 49, 0.685)), url(../../components/Imagenes/Img/About_Hero.jpg);
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-content: center;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.bannerSobre h1 {
+  font-size: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.bannerSobre p {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto 2rem auto;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.perfilAngela {
+  width: 90%;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.perfilAngela .container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+  width: 100%;
+  padding: 0 4rem;
+}
+
+.perfilAngela .imagen {
+  flex: 1 1 300px;
+  text-align: center;
+}
+.perfilAngela .imagen img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Texto */
+.container .texto {
+  flex: 1 1 400px;
+  color: #00123a;
+  text-align: left;
+}
+.container .texto h3 {
+  font-size: 2rem;
+  color: #c59668;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.perfilAngela h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #00123a;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.perfilAngela p {
+  margin-top: 20px;
+  font-size: 1.25em;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+/* Botón */
+.perfilAngela .botonZoom {
+  margin-top: 25px;
+  background-color: #00123a;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.perfilAngela .botonZoom:hover {
+  background-color: #c2865a;
+}
+
+.visionMisionUnica {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background: linear-gradient(rgba(66, 72, 92, 0.76), rgba(66, 71, 95, 0.678)), url(../../components/Imagenes/Img/About_Imagen2.jpg);
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visionMisionUnica .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.visionMisionUnica .textos {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1600px;
+  margin: auto;
+  gap: 40px;
+  color: #f5f5f5;
+}
+
+.visionMisionUnica .textoBloque {
+  color: #000;
+  padding: 30px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.visionMisionUnica h2 {
+  font-size: 3.2rem;
+  margin-bottom: 30px;
+  color: #f5f5f5;
+}
+
+.visionMisionUnica p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #f5f5f5;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .visionMisionUnica .textos {
+    flex-direction: column;
+  }
+  .visionMisionUnica .textoBloque {
+    margin-bottom: 20px;
+  }
+}
+.certificacionesSection {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+.certificacionesSection h2 {
+  font-size: 3.4rem;
+  color: #00123a;
+  padding: 2rem;
+  border-bottom: solid 2px;
+}
+
+.certificacionesSection .container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.certificacionesSection .iconos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.certificacionesSection .iconos img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.certificacionesSection .textoCertificaciones {
+  flex: 1;
+}
+
+.certificacionesSection .textoCertificaciones h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.certificacionesSection .textoCertificaciones ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .certificacionesSection .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .certificacionesSection .iconos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .certificacionesSection .iconos img {
+    margin: 10px;
+  }
+  .certificacionesSection .textoCertificaciones {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.premiosHonoresSection {
+  background-color: #ffffff;
+  padding: 60px 20px;
+}
+
+.logosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  text-align: center;
+}
+
+.logoItem img {
+  max-width: 200px;
+  margin-bottom: 15px;
+}
+
+.logoItem p {
+  font-size: 0.9rem;
+  color: #555;
+} 
+/* Estilo para el contenedor principal de la sección */
+.certificacionesSection {
+  padding: 40px 20px;
+  background-color: #f8f8f8; /* Color de fondo suave */
+  text-align: center;
+}
+
+.containerCertificaciones {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Contenedor que junta la cuadrícula de logos y el texto */
+.certificacionesGrid {
+  display: flex;
+  flex-direction: column; /* Por defecto, apilados en móvil */
+  gap: 40px; /* Espacio entre los logos y el texto */
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Contenedor de los Logos */
+.certificacionesLogos {
+  display: grid;
+  /* Crea una cuadrícula de 3 columnas en la mayoría de los casos */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  width: 100%; /* Ocupa todo el ancho disponible */
+  max-width: 700px; /* Limita el ancho del grupo de logos */
+  margin: 0 auto;
+}
+
+/* Estilo para las imágenes de los logos (para que no se salgan) */
+.certificacionesLogos img {
+  width: 100%;
+  height: auto;
+  max-width: 150px; /* Tamaño máximo para cada logo */
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0 auto; /* Centrar las imágenes si están en un espacio más grande */
+  transition: transform 0.3s ease;
+}
+
+.certificacionesLogos img:hover {
+  transform: scale(1.05);
+}
+
+/* Media Query para Escritorio (Desktop) */
+@media (min-width: 900px) {
+  .certificacionesGrid {
+    flex-direction: row; /* En escritorio, pónlos en una fila horizontal */
+    text-align: left;
+    gap: 80px;
+  }
+  .certificacionesLogos {
+    flex: 2; /* Que los logos ocupen más espacio que el texto */
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas en desktop */
+  }
+  .textoCertificaciones {
+    flex: 1; /* El texto ocupa menos espacio */
+    text-align: left;
+  }
+}
+/* Estilo para la lista de texto de certificaciones */
+.textoCertificaciones ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.textoCertificaciones li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  padding-left: 20px; /* Espacio para un ícono o viñeta custom si lo añades */
+  position: relative;
+}
+
+/* Puedes añadir un estilo de viñeta personalizado si quieres */
+.textoCertificaciones li::before {
+  content: "★"; /* O puedes usar un ícono como '✓' */
+  color: #38a169; /* Un color verde para destacar */
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: absolute;
+  left: 0;
+}
+
+/* -------------------------------------- */
+/* ESTILOS DE LA SECCIÓN DE PREMIOS Y HONORES (NUEVOS ESTILOS) */
+/* -------------------------------------- */
+.premiosHonoresSection {
+  padding: 60px 20px;
+  background-color: #ffffff; /* Fondo verde muy claro para la sección */
+  text-align: center;
+}
+
+.premiosHonoresSection h2 {
+  font-size: 3.4rem;
+  color: #00123a;
+  padding: 2rem;
+}
+
+/* 🚩 EL CONTENEDOR PRINCIPAL AHORA TIENE EL BORDE Y EL FONDO */
+.honoresGrid {
+  /* Quité max-width para que el borde se extienda un poco más */
+  /* Lo hago flex para centrar mejor el contenido, aunque internamente use grid */
+  display: flex;
+  /* IMPORTANTE: para que el contenido comience desde la izquierda y la animación se note */
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 30px 0; /* Padding interno para que el contenido no pegue en el borde */
+  /* ESTILOS DE BORDE ÚNICO */
+  background-color: white; /* Fondo blanco */
+  border: 2px solid #00123a; /* Borde gris muy suave */
+  border-radius: 12px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Sombra suave para levantarla */
+  overflow: hidden;
+  position: relative;
+  /* Evita que el contenido colapse al convertir el interno en flex */
+  align-items: center;
+}
+
+/* ---------- CONVERTIMOS LA GRID A UN TRACK HORIZONTAL PARA ANIMAR ---------- */
+/* Mantengo el nombre .gridContainerInner pero lo pongo en fila */
+.gridContainerInner {
+  display: flex; /* fila continua */
+  flex-wrap: nowrap; /* SIN wrap: todos los honorItem en una línea */
+  width: -moz-max-content;
+  width: max-content; /* ancho real del contenido (necesario para la animación) */
+  /* centrado visual lo controla el padre .honoresGrid si lo deseas */
+  align-items: center;
+  /* animación continua: recorrer la mitad del ancho total (porque duplicaste los items) */
+  animation: honores-scroll 30s linear infinite;
+  /* suaviza y evita saltos en algunos navegadores */
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+/* pausar en hover (opcional) */
+.honoresGrid:hover .gridContainerInner {
+  animation-play-state: paused;
+}
+
+/* ---------- ITEM STYLES (igual que tenías) ---------- */
+.honorItem {
+  background-color: transparent;
+  padding: 10px 5px;
+  border-radius: 0;
+  box-shadow: none;
+  border-top: none;
+  transition: none;
+  transform: none;
+  /* Para que el ítem no colapse y pueda tomar ancho fijo según breakpoint */
+  flex: 0 0 auto; /* no crecer, no encoger, ancho automático por CSS abajo */
+}
+
+/* Mantengo tus estilos internos */
+.honorItem:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.honorItem img {
+  width: auto;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 10px;
+  filter: none;
+}
+
+.honorItem h3 {
+  font-size: 0.9rem;
+  color: #1a202c;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.honorItem p {
+  font-size: 0.8rem;
+  color: #4a5568;
+  line-height: 1.4;
+  padding: 0 5px;
+}
+
+/* ---------- RESPONSIVE: simulamos 2 / 3 / 6 columnas fijando anchos de ítem ---------- */
+/* Móvil: 2 columnas (cada item ocupará ~50% del ancho visible de la grid "virtual") */
+.gridContainerInner .honorItem {
+  /* Cada item tendrá un ancho aproximado según "2 columnas" en pantalla pequeña.
+     Como el contenedor es width:max-content y se desplaza, usamos un ancho que
+     simule 2 columnas dentro del espacio visible. Ajusta el % según tus gaps. */
+  width: calc((100% - 20px) / 2); /* valor de referencia si la grid original era 100% */
+}
+
+/* Tablet: 3 columnas */
+@media (min-width: 640px) {
+  .gridContainerInner {
+    gap: 20px 15px;
+  }
+  .gridContainerInner .honorItem {
+    width: calc((100% - 30px) / 3);
+  }
+}
+/* Escritorio: 6 columnas */
+@media (min-width: 1024px) {
+  .gridContainerInner {
+    gap: 20px 20px;
+  }
+  .gridContainerInner .honorItem {
+    width: calc((100% - 100px) / 6); /* ajustá el -100px según el gap total que quieras simular */
+  }
+}
+/* ---------- ANIMACIÓN ---------- */
+/* Mueve la track hacia la izquierda hasta -50% (funciona con duplicado de items) */
+@keyframes honores-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+/* ------------------------------------------------------ */
+/* ✅ AJUSTES RESPONSIVE – TABLET Y CELULAR */
+/* ------------------------------------------------------ */
+/* TABLET (max-width: 1024px) */
+@media (max-width: 1024px) {
+  /* Banner principal */
+  .bannerSobre {
+    height: auto;
+    padding: 4rem 1rem;
+  }
+  .bannerSobre h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .bannerSobre p {
+    font-size: 1.1rem;
+    width: 90%;
+    line-height: 1.7;
+  }
+  /* Perfil Angela */
+  .perfilAngela .container {
+    flex-direction: column;
+    padding: 0 1rem;
+    gap: 3rem;
+  }
+  .perfilAngela .imagen img {
+    max-width: 90%;
+    border-radius: 10px;
+  }
+  .perfilAngela h2 {
+    font-size: 2.5rem;
+  }
+  .perfilAngela .container .texto h3 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  .perfilAngela p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  .perfilAngela .botonZoom {
+    font-size: 1.1rem;
+    padding: 15px 25px;
+    border-radius: 25px;
+  }
+  /* Visión y Misión */
+  .visionMisionUnica {
+    background-attachment: scroll;
+    padding: 4rem 1rem;
+    background-position: center;
+  }
+  .visionMisionUnica .textos {
+    flex-direction: column;
+    gap: 2rem;
+    width: 95%;
+  }
+  .visionMisionUnica h2 {
+    font-size: 2.5rem;
+  }
+  .visionMisionUnica p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  /* Certificaciones */
+  .certificacionesSection h2 {
+    font-size: 2.4rem;
+  }
+  .certificacionesSection .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .certificacionesSection .iconos img {
+    width: 40px;
+    height: 40px;
+  }
+  .textoCertificaciones {
+    text-align: center;
+  }
+  /* Premios y Honores */
+  .premiosHonoresSection h2 {
+    font-size: 2.5rem;
+  }
+  .honoresGrid {
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: none; /* 🚫 quitar desplazamiento animado */
+  }
+  .gridContainerInner {
+    animation: none; /* 🚫 desactivar la animación */
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .honorItem {
+    width: 45%;
+    margin-bottom: 2rem;
+  }
+  .honorItem img {
+    height: 120px;
+  }
+  .honorItem h3 {
+    font-size: 0.9rem;
+  }
+  .honorItem p {
+    font-size: 0.8rem;
+  }
+}
+/* CELULAR (max-width: 767px) */
+@media (max-width: 767px) {
+  /* Banner */
+  .bannerSobre {
+    height: auto;
+    padding: 3rem 1rem;
+  }
+  .bannerSobre h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .bannerSobre p {
+    font-size: 1rem;
+    width: 90%;
+  }
+  /* Perfil Angela */
+  .perfilAngela {
+    width: 95%;
+    padding: 40px 10px;
+  }
+  .perfilAngela .container {
+    flex-direction: column;
+    padding: 0;
+    gap: 2rem;
+  }
+  .perfilAngela .imagen img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .perfilAngela h2 {
+    font-size: 2rem;
+  }
+  .perfilAngela .container .texto h3 {
+    font-size: 1.4rem;
+  }
+  .perfilAngela p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .perfilAngela .botonZoom {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+  /* Visión y Misión */
+  .visionMisionUnica {
+    padding: 3rem 1rem;
+    background-position: center;
+  }
+  .visionMisionUnica .textos {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .visionMisionUnica h2 {
+    font-size: 2rem;
+  }
+  .visionMisionUnica p {
+    font-size: 0.95rem;
+  }
+  /* Certificaciones */
+  .certificacionesSection {
+    transform: scale(0.9);
+    transform-origin: top center;
+  }
+  .certificacionesSection h2 {
+    font-size: 1.8rem;
+  }
+  .certificacionesSection .certificacionesLogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap; /* mantiene todo en una línea si entra */
+  }
+  .certificacionesLogos img {
+    width: 40px;
+    height: 40px;
+  }
+  .textoCertificaciones {
+    transform: scale(0.95);
+    font-size: 0.9rem;
+  }
+  /* Premios y Honores */
+  .premiosHonoresSection {
+    width: 96%;
+    aspect-ratio: 1/1;
+    padding: 10px;
+  }
+  .honoresGrid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+  }
+  .honorItem img {
+    height: 45px;
+    margin-bottom: 5px;
+  }
+  .honorItem h3 {
+    font-size: 0.75rem;
+  }
+  .honorItem p {
+    font-size: 0.65rem;
+  }
+  .secundario {
+    display: none;
+  }
+}/*# sourceMappingURL=SobreNosotros.module.css.map */

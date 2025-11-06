@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box
+}
+
+
+.testimoniosSection {
+  position: relative;
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f8f8f8;
+  background-color: #141e2e;
+
+  h2{
+    font-size: 3.5rem;
+    color: #f8f8f8;
+  }
+
+
+  .testimonioCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+    position: relative;
+  }
+
+  .testimonioContenido {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
+    display: grid;
+    justify-items: center; /* centra horizontalmente */
+  align-items: start; 
+
+    .Icono_Estrellas{
+      margin: auto;
+      padding: 0;
+      position: absolute;
+      width: 300px;
+      top: -40px;
+    }
+  }
+
+  .testimonioContenido p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 2rem;
+  }
+
+  .testimonioContenido h4 {
+    font-size: 1.4rem;
+    color: #181818;
+    font-weight: 700;
+  }
+
+  .flecha {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    img{
+      width: 60px;
+    }
+  }
+
+  .flecha:hover {
+    color: #c59858; /* dorado suave */
+  }
+
+}
+
+
+/* ----------------- MEDIA QUERIES RESPONSIVE ----------------- */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .testimoniosSection {
+    padding: 60px 20px;
+
+    h2 {
+      font-size: 2.8rem;
+      margin-bottom: 2rem;
+    }
+
+    .testimonioCard {
+      flex-direction: column;
+      gap: 40px;
+      max-width: 90%;
+    }
+
+    .testimonioContenido {
+      padding: 30px 25px;
+      width: 100%;
+
+      .Icono_Estrellas {
+        width: 220px;
+        top: -30px;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        color: #444;
+      }
+
+      h4 {
+        font-size: 1.2rem;
+      }
+    }
+
+    .flecha img {
+      width: 45px;
+    }
+  }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+  .testimoniosSection {
+    padding: 40px 15px;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      line-height: 2.4rem;
+    }
+
+    .testimonioCard {
+      flex-direction: column;
+      gap: 30px;
+      max-width: 100%;
+      margin: 20px auto;
+    }
+
+    .testimonioContenido {
+      padding: 25px 20px;
+      border-radius: 12px;
+
+      .Icono_Estrellas {
+        width: 180px;
+        top: -25px;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+        margin-bottom: 10px;
+        text-align: left;
+      }
+
+      h4 {
+        font-size: 1.1rem;
+        text-align: left;
+      }
+    }
+
+    .flecha img {
+      width: 40px;
+    }
+  }
+}

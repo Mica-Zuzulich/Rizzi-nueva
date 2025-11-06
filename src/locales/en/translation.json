@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "grupo_inmobiliario": "Inspired and committed real estate group",
+    "subtitulo": "We create spaces for your future."
+  },
+  "contacto": {
+    "label_nombre": "Name",
+    "label_email": "Email",
+    "label_mensaje": "Message",
+    
+    "placeholder_nombre": "Enter your name",
+    "placeholder_email": "Enter your email",
+    "placeholder_mensaje": "Write your message here",
+    
+    "boton_enviar": "Send",
+    "boton_enviando": "Sending...",
+    
+    "estado": {
+      "captcha_error": "Please verify the captcha before submitting.",
+      "success": "Message sent successfully!",
+      "fail": "Could not send the message. Please try again.",
+      "connect_error": "Connection error. Please try later."
+    }
+  },
+  
+  "sobreAngela": {
+    "alt_imagen": "Angela Rizzi",
+    "titulo": "Angela Rizzi",
+    "descripcion": "Angela Rizzi combines over 25 years of experience in the real estate sector with a deep passion for art and design. Her solid background in insurance, finance, and marketing allows her to manage complex transactions with precision and a unique strategic vision. \nRecognized for her personalized approach and commitment to client satisfaction, Angela guides each person in finding a home that reflects their style and aspirations. Her artistic approach and international reach, including markets such as Colombia, Italy, Panama, and Portugal, make every real estate experience smooth, enriching, and tailor-made.",
+    "boton": "Meet the team"
+  },
+  "porqueElegirnos": {
+    "titulo": "Why choose us?",
+    "razon1": "25 years of experience advising investors and homeowners to achieve their dreams.",
+    "razon2": "We accompany you in every step of your investment with a multidisciplinary team (lawyers, accountants).",
+    "razon3": "Easy and secure investments, selecting studied projects with high profitability.",
+    "razon4": "Exceptional service and personalized attention, understanding your needs abroad.",
+    "alt_icono": "Tick Icon"
+  },
+  "intro": {
+    "alt_imagen": "Modern house",
+    "titulo_html": "The most <span>flexible</span> <br />way to invest.",
+    "descripcion": "With over 25 years of experience, Rizzi Group presents an innovative proposal that revolutionizes the way to acquire property in the United States. With a much more dynamic and flexible scheme, designed especially for Latin American families, the door opens to a global lifestyle, with benefits that go beyond the traditional real estate purchase. Rizzi Group invites you to Live the experience!",
+    "boton": "Contact Us"
+  },
+    "introProyectos": {
+    "alt_imagen": "Map",
+    "titulo_html": "Investments on an <span>International</span> Level",
+    "descripcion": "At Rizzi Group, we believe in building the future. We develop housing and construction projects and investment opportunities around the world, offering financing and flexible solutions so every investor can be part of growth and the creation of new spaces.",
+    "boton": "Contact Us"
+  },
+  "servicios": {
+  "titulo": "Our Services",
+  "servicio1": "Properties",
+  "descripcion1": "From the search to the purchase, we guide and advise you every step of the way to find and acquire your ideal property.",
+  "servicio2": "International Investments",
+  "descripcion2": "We provide access to multiple real estate investment opportunities in different countries, with solid and tailored projects.",
+  "servicio3": "Legal Advice",
+  "descripcion3": "We offer legal support to invest abroad safely, advising you from the purchase process to tax obligations.",
+  "servicio4": "Financing",
+  "descripcion4": "We offer credit and financing options backed by our strategic partner Sun Tree Finance, ensuring stability and trust.",
+  "boton": "Consult with our trusted expert"
+},
+"nav": {
+  "home": "Home",
+  "proyectos": "Projects",
+  "sobre": "About Us",
+  "contacto": "Contact"
+}
+}
